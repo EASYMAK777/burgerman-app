@@ -1,0 +1,25 @@
+{
+  "name": "burgerman-app",
+  "version": "1.0.0",
+  "description": "burger app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EASYMAK777/burgerman-app.git"
+  },
+  "author": "Juan Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EASYMAK777/burgerman-app/issues"
+  },
+  "homepage": "https://github.com/EASYMAK777/burgerman-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
