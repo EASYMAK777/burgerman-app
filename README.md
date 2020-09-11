@@ -1,6 +1,6 @@
 # burgerman-app
 
-[burgermanpp.gif] (./assets/img/burger app gif.gif);
+[burgermanpp.gif] (./img/burger app gif.gif);
 
 ![(https://img.shields.io/badge/licence-readme-red)]
     
