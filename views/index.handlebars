@@ -4,18 +4,24 @@
 
 <ul>
   {{#each burgers}}
-    {{#unless delicious}}
-      {{> burgers/burgers-block delicuous=true}}
+    {{#unless devoured}}
+      <li>
+
+        {{burger_name}}
+        <button data-id= {{id}} class="change-devoured">Devour Burger</button>
+      </li>
     {{/unless}}
   {{/each}}
 </ul>
 
-<h2>Cartoon burgers are delicious!</h2>
+<h2>Cartoon burgers are devoured!</h2>
 
 <ul>
   {{#each burgers}}
-    {{#if delicious}}
-      {{> burgers/burger-block delicious=false}}
+    {{#if devoured}}
+      <li>
+        {{burger_name}}
+      </li>
     {{/if}}
   {{/each}}
 </ul>
@@ -29,9 +35,9 @@
   </div>
 
   <div class="form-group">
-    <label for="delicious">Delicious?</label><br>
-    <input type="radio" name="delicious" value="1" checked> Delicious!<br>
-    <input type="radio" name="disgusting" value="0"> Disgusting
+    
+    <input type="radio" name="devoured" value="1" checked> devoured!<br>
+    
   </div>
 
   <button type="submit">Add Burger</button>
