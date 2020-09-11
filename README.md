@@ -8,8 +8,6 @@
      
     Burgerman app
 
-
-
     ## Description
 
     its a web app using heroku, mysql workbench, express, and JawsDb to create a burger eating app
