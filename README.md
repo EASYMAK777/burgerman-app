@@ -1,10 +1,14 @@
 # burgerman-app
 
+[burgermanpp.gif] (./assets/img/burger app gif.gif);
+
 ![(https://img.shields.io/badge/licence-readme-red)]
     
     ##Title
      
     Burgerman app
+
+
 
     ## Description
 
